@@ -1,9 +1,11 @@
 body {
   margin: 0;
+  background-color: pink;
 }
 
 h2 {
   margin-left: 25px;
+  text-align: center;
 }
 
 label,
@@ -24,4 +26,19 @@ input {
   border: 1px solid black;
   margin-left: 125px;
   margin-top: 100px;
+  background-color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.table {
+  float: left;
+  width:35%;
+  height: 400px;
+  border: 1px solid black;
+  margin-left: 125px;
+  margin-top: 100px;
+  background-color: white;
+  font-family: sans-serif;
+  font-size: 14px;
 }
