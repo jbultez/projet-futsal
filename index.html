@@ -12,7 +12,7 @@
 
   <div id="team1">
     <h2>Equipe 1</h2>
-    <label>Nom de l'équipe</label><input id="nomTeam1" type="text"></input>
+    <label>Nom de l'équipe</label><input id="inputNomTeam1" type="text"></input>
     <label>Player1</label><input id="team1J1" type="text"></input>
     <label>Player2</label><input id="team1J2" type="text"></input>
     <label>Player3</label><input id="team1J3" type="text"></input>
@@ -201,8 +201,9 @@
   </div>
 <button onclick="javascript:enregistrerEquipe()">Sauvegarder vos équipes</button>
   <script language="javascript">
-  var
   function enregistrerEquipe(){
+    var equipe1 = document.getElementById('inputNomTeam1').value;
+    document.getElementById('nomTeam1').innerHTML = equipe1;
 
 
 
