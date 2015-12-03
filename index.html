@@ -8,7 +8,7 @@
    <meta charset="utf-8">
 </head>
 <body>
-<button onclick="javascript:ask()">Sauvegarder vos équipes</button>
+
   <div id="team1">
     <h2>Equipe 1</h2>
     <label>Nom de l'équipe</label><input id="inputNomTeam1" type="text"></input>
@@ -205,16 +205,5 @@
     </table>
   </div>
 
-  <script language="javascript">
-  function insertText(domId,text){
-    document.getElementById(domId).innerHTML = text;
-  }
-  function enregistrerEquipe(){
-    var equipe1 = document.getElementById('inputNomTeam1').value;
-    insertText('nomTeam1') = equipe1;
-    var t1j1 = document.getElementById('inputTeam1J1').value;
-    insertText('team1J1') = t1j1;
-  }
-  </script>
 </body>
 </html>
