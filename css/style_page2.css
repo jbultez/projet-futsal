@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  background-color: white;
+  /*background-color: white;*/
+  background-image: url(img/fond.png);
 }
 
 /*barre haut et bas fixe*/
@@ -12,7 +13,7 @@ body {
   top : 0;
   left : 0;
   z-index : 2;
-  margin-top : 20px;
+  margin-top : 40px;
 }
 
 .nav li {
@@ -70,8 +71,8 @@ input {
 #team5,
 #team6 {
   float: left;
-  width:35%;
-  height: 400px;
+  width:13%;
+  height: 200px;
   border: 1px solid black;
   margin-left: 125px;
   margin-top: 100px;
@@ -83,11 +84,16 @@ input {
 .table {
   float: left;
 }
-
+.table tr {
+  font-family: sans-serif;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 100px;
+}
 .tableauRencontre {
   width: 100%;
   height: auto;
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
 .tableauRencontre table {
@@ -100,11 +106,15 @@ input {
   font-family: sans-serif;
   font-size: 14px;
   text-align: center;
+  margin-top: 100px;
 }
 
 .tableauRencontre th {
   border: 1px solid black;
+  border-radius: 10px;
   text-align: center;
+
+
 }
 .tableauRencontre td {
   border-left: 1px solid black;
