@@ -1,4 +1,4 @@
-window.onload = function(e){
+ function onLoadTeam (){
   if(typeof localStorage!='undefined') {
     for (numeroTeam=1; numeroTeam<=6 ; numeroTeam++) {
       var team = localStorage.getItem("nameTeam" + numeroTeam);
@@ -28,8 +28,8 @@ function ask(numeroTeam){
   elems = document.getElementsByName("nameTeam" + numeroTeam);
   for (i = 0; i < elems.length; i++) {
     elems[i].innerHTML = team.value;
+    localStorage.setItem("nameTeam" + numeroTeam, "inputNameTeam"+ numeroTeam);
+    team = localStorage.getItem("nameTeam" + numeroTeam);
 
-
-  localStorage.setItem("nameTeam"+ numeroTeam, team);
-}
+                                      }
 }
